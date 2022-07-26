@@ -28,18 +28,27 @@
 
 // console.log(fib(8));
 
-//Task 3
-function sum(a) {
-    return function (b){
-        return function (){
-            return function (){
-                return function (c){  
-                    return function (){      
-                        return a+b+c;  
-                    }  
-                };
-            };
-        };
-    };
+// //Task 3
+// function sum(a) {
+//     return function (b){
+//         return function (){
+//             return function (){
+//                 return function (c){  
+//                     return function (){      
+//                         return a+b+c;  
+//                     }  
+//                 };
+//             };
+//         };
+//     };
+// }
+// console.log(sum(1)(2)()()(23)());
+
+
+//Task 4
+function name(n) {
+    return function(s){
+        return (n)+(s);
+    }
 }
-console.log(sum(1)(2)()()(23)());
+console.log("Mehroj ")("Giyosov");
